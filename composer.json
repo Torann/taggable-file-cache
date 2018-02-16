@@ -1,0 +1,24 @@
+{
+  "name": "torann/taggable-file-cache",
+  "description": "A Laravel file cache driver that supports tagging.",
+  "version": "1.0.0",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Daniel Stainback",
+      "email": "torann@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "illuminate/support": "~5.4"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Torann\\TaggableFileCache\\": "src/"
+    }
+  }
+}
